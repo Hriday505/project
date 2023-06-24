@@ -82,27 +82,12 @@
 			text-overflow:ellipsis;
 			border:hidden;
 			color:black;
-			animation:onput 1.3s linear;
+			scale:0.5rem;
 				border-radius:10px;
 			white-space: normal;
 		transition: 0.8s ease;}
 	
-		@keyframes onput{25%{
-			transform:  translateX(-55px);
-			}
-			50%{
-			transform:  translateX(-55px);
-			}
-			75%{
-			transform:  translateX(-55px);
-			}
-			100%{
-					transform: translateX(-55px);
-								
-				
-			}
-			
-		}
+		
 
 		.fisrt-box button{height:38px;
 			width:100px;
